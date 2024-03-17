@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #784;
+        }
+
+        header {
+            background-color: #7857;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: beige ;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img src="cv.jpg" alt="cv" width="80" height"80">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Abigail Elizabeht Chete</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>elizabeth.chete@galileo.edu</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>4530-5166</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Diseñadora de modas</h3>
+            <p>Empresa Textiles coqueta s,a - Ciudad, Guatemala | Fecha de inicio 23/03/2014 - Fecha de fin 15/02/2021</p>
+            <ul>
+                <li>Logros y responsabilidades...Creadora mas de 500 diseños de moda exclusivos para dama</li>
+                <li>Más logros y responsabilidades... Diseñar y crear nuevos diseños y lanzamiento de nuevas marcas para incrementar las ventas</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Community Manager</h3>
+            <p> - Empresa de calzado "pasitos" Ciudad, ciudad de Mexico dc | Fecha de inicio 14/08/2022 - Fecha de fin 15/07/2023</p>
+            <ul>
+                <li>Logros y responsabilidades...implementar estrategias de atracción en redes sociales
+Redactar textos originales y acordes con el negocio
+Coordinar la creación de contenidos
+Medir el rendimiento de las redes sociales y campañas
+Atender a los clientes y usuarios</li>
+                <li>Más logros y responsabilidades...Aumentar 2.5% incremento de vemtas y impulsar el porcentaje de ventas atraves de la innovación de productos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Grado Universitario</h3>
+            <p>Nombre de la Universidad -Universidad Galileo Ciudad, Galileo | Fecha de inicio - Fecha de fin</p>
+            <p>Título obtenido y especialización Licenciada En Administración de Empresas - Mestria en mercado Internacional</p>
+        </div>
+    </section>
+</body>
+</html>
